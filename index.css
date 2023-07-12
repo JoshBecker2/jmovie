@@ -1,0 +1,138 @@
+:root {
+    --text: #EDEDED;
+    --bg: #171717;
+    --bg2: #444444;
+    --red: #DA0037;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: var(--text);
+    background-color: var(--bg);
+    overflow-x: hidden;
+}
+
+/* BEGIN index.php */
+
+x {
+    border-bottom: 2px solid var(--red);
+}
+
+#whiteoutContainer {
+    z-index: 69420;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg2);
+}
+
+#header {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+#header h1 {
+    font-size: 50px;
+}
+
+#header h2 {
+    font-size: 25px;
+}
+
+#searchContainer {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#searchBar {
+    position: relative;
+    margin-top: 15px;
+    font-size: 25px;
+    color: var(--text);
+    background: var(--bg);
+    outline: none;
+    border: none;
+    border-bottom: 4px solid var(--red);
+}
+
+
+#bodyContainer {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+#bodyContainer h2 {
+    margin-bottom: 50px;
+}
+
+.movie {
+    position: relative;
+    border: 2px solid var(--red);
+    width: 170px;
+    left: 50%;
+    margin-left: -85px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.movieTitle {
+    font-size: 20px;
+    color: var(--text);
+}
+
+/* BEGIN result.php */
+
+#result {
+    color: var(--text);
+    font-size: 35px;
+}
+
+#resultContainer, #resultHeader {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+#resultContainer {
+    margin-top: 50px;
+}
+
+#resultContainer h2 {
+    margin-bottom: 40px;
+}
+
+#resultSearchBar {
+    position: sticky;
+    margin-top: 15px;
+    font-size: 25px;
+    color: var(--text);
+    background: var(--bg);
+    outline: none;
+    border: none;
+    border-bottom: 4px solid var(--red);
+}
+
+/* prettify the desktop scroll bar */
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+::-webkit-scrollbar-track {
+    background: white;
+}
+::-webkit-scrollbar-thumb {
+    background: #444;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
